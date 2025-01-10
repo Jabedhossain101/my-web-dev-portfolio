@@ -7,8 +7,12 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+.better {
+  width: 100%;
+  margin-bottom: 20px;
+}
 .nav-title {
-  font-size: 50px;
+  font-size: 40px;
 }
 .text-primary {
   color: rgb(253, 110, 10);
@@ -61,9 +65,37 @@ p,
 }
 .box-image {
   background-image: url(../images/header_bg.png);
-  align-items: bottom;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+.header {
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 img,
 .developer {
   height: 600px;
+}
+main {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 35px;
+}
+.section-description {
+}
+.about-me {
+  border-radius: 10px;
+  padding: 60px 80px;
+  background: rgb(245, 245, 230);
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.personal-data {
+  display: flex;
+  gap: 30px;
 }
