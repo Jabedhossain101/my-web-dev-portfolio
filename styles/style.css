@@ -70,7 +70,6 @@ p,
   background-size: 700px;
 }
 .header {
-  background-image: url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -85,17 +84,44 @@ main {
 .section-title {
   font-size: 35px;
 }
-.section-description {
+.about-me {
+  border: 2px solid red;
+}
+.about-me2 {
+  border: 2px solid red;
 }
 .about-me {
   border-radius: 10px;
-  padding: 60px 80px;
+  padding: 50px;
   background: rgb(245, 245, 230);
   margin-top: 130px;
   text-align: center;
   margin-bottom: 120px;
 }
+
 .personal-data {
   display: flex;
   gap: 30px;
+}
+.my-personal {
+  display: flex;
+  gap: 20px;
+}
+.my-work {
+  text-align: center;
+}
+.container-parent {
+  display: flex;
+  /* border: 2px solid red; */
+}
+.container {
+  background-color: lightgoldenrodyellow;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
 }
